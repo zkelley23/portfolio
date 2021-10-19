@@ -1,0 +1,46 @@
+@media (max-width: 1200px) {}
+
+/* @media (max-width: 1024px) {
+    nav, article {
+        width: 80%;
+    }
+} */
+
+@media (max-width: 1024px) {
+
+    nav, article {
+        width: 90%;
+    }
+
+    .card-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-gap: 24px;
+    }
+
+    p {
+        max-width: none;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .menuIcon {
+        display: inline-block;
+    }
+
+    .menuBtn {
+        visibility: visible;
+    }
+
+    .desktop-sm {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    nav, article {
+        width: 95%;
+    }
+}
